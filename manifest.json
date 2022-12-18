@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+   "name": "Utility",
+    "description": "Detect duplicate file downloads and prompting the user to prevent duplicate downloads ",
+     "version": "0.1",
+     "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png"
+    },
+   
+     "action": {
+      "default_icon": "icon16.png",
+      "default_title": "Utility"    
+    },
+   
+    "permissions": [ "downloads" ],
+     "background": {
+       "service_worker": "background.js"
+    } 
+}
